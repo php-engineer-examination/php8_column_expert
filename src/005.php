@@ -55,6 +55,13 @@ function unionTypeFunction(int|float $numerical_value)
 }
 unionTypeFunction(123);
 unionTypeFunction(3.141592);
+// 
+function nullableTypeFunction(?string $nullable_string_value)
+{
+    var_dump($nullable_string_value);
+}
+nullableTypeFunction('string');
+nullableTypeFunction(null);
 
 // Iterable
 function iterableTypeFunction(Iterable $itr)
