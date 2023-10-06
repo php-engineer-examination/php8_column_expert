@@ -47,3 +47,6 @@ $object = new class() {
     use HogeTrait;
 };
 $object->hoge();
+
+// 例えば `get_class()` で確認すると、クラス名を得る事ができます
+var_dump( get_class($object) );
