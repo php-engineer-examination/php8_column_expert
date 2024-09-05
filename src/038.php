@@ -1,4 +1,4 @@
-<?php // 10.php
+<?php
 declare(strict_types=1);
 
 echo "数学的な操作でエラーが発生\n";
